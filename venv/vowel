@@ -1,0 +1,6 @@
+letter=input('enter your letter')
+vowel=["a","e","i","o","u","A","E","I","O","U"]
+if(letter in vowel):
+    print("It is vowel")
+else:
+    print("This is consonant")
